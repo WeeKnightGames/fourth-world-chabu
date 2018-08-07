@@ -1,0 +1,18 @@
+---
+backgrounds:
+- name: Student
+  fluff: You have been studying at a college or university.
+  proficiencies:
+    skills:
+      fluff: Choose 1 of
+      choose: 1
+      of:
+      - Arcana
+      - History
+      - Linguistics
+      - Medicine
+      - Nature
+      - Religion
+      - Science
+      - Technology
+...

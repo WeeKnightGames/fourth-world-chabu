@@ -1,0 +1,41 @@
+---
+skills:
+- name: Athletics
+  key ability score: Strength
+- name: Endurance
+  key ability score: Constitution
+- name: Acrobatics
+  key ability score: Dexterity
+- name: Stealth
+  key ability score: Dexterity
+- name: Thievery
+  key ability score: Dexterity
+- name: Arcana
+  key ability score: Intelligence
+- name: History
+  key ability score: Intelligence
+- name: Linguistics
+  key ability score: Intelligence
+- name: Religion
+  key ability score: Intelligence
+- name: Technology
+  key ability score: Intelligence
+- name: Dungeoneering
+  key ability score: Wisdom
+- name: Medicine
+  key ability score: Wisdom
+- name: Nature
+  key ability score: Wisdom
+- name: Science
+  key ability score: Wisdom
+- name: Survival
+  key ability score: Wisdom
+- name: Deception
+  key ability score: Charisma
+- name: Diplomacy
+  key ability score: Charisma
+- name: Intimidation
+  key ability score: Charisma
+- name: Society
+  key ability score: Charisma
+...

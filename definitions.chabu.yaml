@@ -1,0 +1,17 @@
+---
+definitions:
+- name: half
+  fluff: when you divide by 2 or take half of a value, round down
+- name: hit points
+  fluff: = Constitution ability score + max hit die + level * (half hit die + Constitution ability score modifier)
+- name: AC
+  fluff: = 10 + half level + higher of Dexterity ability modifer and Intelligence ability modifier + armor bonus + shield bonus
+- name: Fortitude
+  fluff: = 10 + half level + higher of Strength ability modifer and Constitution ability modifier
+- name: Reflex
+  fluff: = 10 + half level + higher of Dexterity ability modifer and Intelligence ability modifier + shield bonus
+- name: Will
+  fluff: = 10 + half level + higher of Wisdom ability modifer and Charisma ability modifier
+- name: proficiency bonus
+  fluff: when proficient, gain a +1 per tier bonus to the check or roll
+...

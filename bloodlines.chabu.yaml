@@ -1,0 +1,13 @@
+---
+bloodlines:
+- name: Android
+- name: Draconic
+- name: Dwarf
+- name: Elf
+- name: Forgeborn
+- name: Halfblood
+- name: Halfling
+- name: Human
+- name: Orc
+- name: Troll
+...

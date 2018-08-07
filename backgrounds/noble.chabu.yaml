@@ -1,0 +1,14 @@
+---
+backgrounds:
+- name: Noble
+  fluff: You come from aristocracy or nobility.
+  proficiencies:
+    skills:
+      fluff: Choose 1 of
+      choose: 1
+      of:
+      - Deception
+      - Diplomacy
+      - Intimidate
+      - Society
+...

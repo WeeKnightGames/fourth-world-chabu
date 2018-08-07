@@ -1,0 +1,35 @@
+---
+features:
+- name: Arcane Spellcasting
+  fluff: You may choose Arcane Spells requiring Implements as your At-Will, Encounter, and Daily Powers.
+- name: Divine Spellcasting
+  fluff: You may choose Divine Prayers requiring Implements as your At-Will, Encounter, and Daily Powers.
+- name: Primal Spellcasting
+  fluff: You may choose Primal Evocations requiring Implements as your At-Will, Encounter, and Daily Powers.
+- name: Limited Arcane Spellcasting
+  fluff: You may choose Arcane Spells requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
+- name: Limited Divine Spellcasting
+  fluff: You may choose Divine Prayers requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
+- name: Limited Primal Spellcasting
+  fluff: You may choose Primal Evocations requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
+
+- name: Martial Experience
+  fluff: You may choose a Martial Exploit as 1 of your At-Will Powers.
+- name: Martial Training
+  fluff: You may choose Martial Exploits as your At-Will, Encounter, and Daily Powers.
+
+- name: Arcane Weaponry
+  fluff: You may choose Arcane Spells requiring Weapons as your At-Will, Encounter, and Daily Powers.
+
+- name: Arcane Brilliance
+  fluff: You make Arcane attacks using your Intelligence.
+- name: Divine Brilliance
+  fluff: You make Divine attacks using your Intelligence.
+- name: Martial Brilliance
+  fluff: You make Martial attacks using your Intelligence.
+- name: Primal Brilliance
+  fluff: You make Primal attacks using your Intelligence.
+
+- name: Primal Awareness
+  fluff: You make Primal attacks using your Wisdom.
+...

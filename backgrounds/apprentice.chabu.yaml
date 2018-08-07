@@ -1,0 +1,12 @@
+---
+backgrounds:
+- name: Apprentice
+  fluff: You were apprenticed to a local craftsman.
+  proficiencies:
+    tools:
+      fluff: Choose 1 of
+      choose: 1
+      of:
+      - Smith's Tools
+      - Brewer's Supplies
+...

@@ -1,0 +1,10 @@
+---
+include:
+- backgrounds.chabu.yaml
+- bloodlines.chabu.yaml
+- classes.chabu.yaml
+- skills.chabu.yaml
+- features.chabu.yaml
+- definitions.chabu.yaml
+- license.chabu.yaml
+...
