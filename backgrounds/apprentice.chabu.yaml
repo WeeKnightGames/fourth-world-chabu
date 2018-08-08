@@ -2,6 +2,13 @@
 backgrounds:
 - name: Apprentice
   fluff: You were apprenticed to a local craftsman.
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Strength
+    - Dexterity
+    - Intelligence
   proficiencies:
     tools:
       fluff: Choose 1 of

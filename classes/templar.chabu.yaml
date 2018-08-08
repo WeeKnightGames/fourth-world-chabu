@@ -21,12 +21,11 @@ classes:
   proficiencies:
     equipment:
     - Simple Weapons
-    - Military Weapons
+    - Martial Weapons
     - Light Armor
     - Medium Armor
     - Heavy Armor
-    - Light Shield
-    - Heavy Shield
+    - Shields
     implements:
     - Weapons
     - Shields

@@ -2,6 +2,12 @@
 backgrounds:
 - name: Student
   fluff: You have been studying at a college or university.
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Intelligence
+    - Wisdom
   proficiencies:
     skills:
       fluff: Choose 1 of

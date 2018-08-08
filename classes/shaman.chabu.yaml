@@ -29,7 +29,6 @@ classes:
   proficiencies:
     equipment:
     - Simple Weapons
-    - Longspear
     - Light Armor
     - Medium Armor
     implements:

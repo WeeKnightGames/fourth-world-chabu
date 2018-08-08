@@ -2,6 +2,13 @@
 backgrounds:
 - name: Noble
   fluff: You come from aristocracy or nobility.
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Intelligence
+    - Wisdom
+    - Charisma
   proficiencies:
     skills:
       fluff: Choose 1 of

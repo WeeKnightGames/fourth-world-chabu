@@ -1,10 +1,10 @@
 ---
 include:
+- backgrounds/acolyte.chabu.yaml
 - backgrounds/apprentice.chabu.yaml
 - backgrounds/noble.chabu.yaml
 - backgrounds/student.chabu.yaml
 backgrounds:
-- name: Acolyte
 - name: Merchant
 - name: Military
 - name: Sailor
