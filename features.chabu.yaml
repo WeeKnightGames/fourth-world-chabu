@@ -6,6 +6,8 @@ features:
   fluff: You may choose Divine Prayers requiring Implements as your At-Will, Encounter, and Daily Powers.
 - name: Primal Spellcasting
   fluff: You may choose Primal Evocations requiring Implements as your At-Will, Encounter, and Daily Powers.
+
+# Or should Limited be At-Will and Encounter Powers, but not Dailies?
 - name: Limited Arcane Spellcasting
   fluff: You may choose Arcane Spells requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
 - name: Limited Divine Spellcasting

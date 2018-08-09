@@ -9,4 +9,13 @@ include:
 - classes/shaman.chabu.yaml
 - classes/templar.chabu.yaml
 - classes/wizard.chabu.yaml
+# classes:
+# - name: Arcanist
+#   fluff:  (Dual-class Sorcerer & Wizard)
+#   role:
+#   source:
+# - name: Artificer
+#   fluff: "?"
+#   role:
+#   source:
 ...

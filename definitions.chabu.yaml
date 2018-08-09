@@ -1,5 +1,12 @@
 ---
 definitions:
+- name: ability score
+  fluff: >
+    Each creature has six ability scores: Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma. These scores represent a creature's most basic attributes. The higher the score, the more raw potential and talent your character possesses.
+- name: ability score increase
+  fluff: increase 1 ability score by 1
+- name: ability score modifier
+  fluff: = (ability score / 2) - 5
 - name: half
   fluff: when you divide by 2 or take half of a value, round down
 - name: hit points
