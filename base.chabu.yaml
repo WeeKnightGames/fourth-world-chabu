@@ -6,6 +6,7 @@ include:
 - skills.chabu.yaml
 - features.chabu.yaml
 - feats.chabu.yaml
+- powers.chabu.yaml
 - definitions.chabu.yaml
 - license.chabu.yaml
 ...

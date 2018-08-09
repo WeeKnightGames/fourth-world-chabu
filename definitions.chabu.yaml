@@ -21,4 +21,28 @@ definitions:
   fluff: = 10 + half level + higher of Wisdom ability modifer and Charisma ability modifier
 - name: proficiency bonus
   fluff: when proficient, gain a +1 per tier bonus to the check or roll
+- name: incompetence penalty
+  fluff: when not proficient, roll with disadvantage; if another effect would add disadvantage, you cannot make the roll
+- name: advantage
+  fluff: roll a third d10 and sum the highest 2, cancels advantage
+- name: disadvantage
+  fluff: roll a third d10 and sum the lowest 2, cancels advantage
+- name: summon
+  fluff: a Summoning Power creates a creature with HP equal to your Winded value and Defenses equal to your base defenses - 1. You control this creature. When you take an Action to move, you may have this Creature move.
+  rules:
+  - create Creature in Space in Range
+  - HP equal to your Winded value (half your max)
+  - Defenses equal to yours (without temporary modifiers) - 1
+- name: winded
+  fluff: a creature is winded when its current hit points equal half or fewer of its maximum hit points
+- name: round
+  fluff: each creature in a combat has one turn to act in a round
+- name: turn
+  fluff: a creature gets to control combat on its turn; a creature has 2 Actions to spend on its turn; and 1 Reaction to spend, generally on another creature's turn, during each round
+- name: attack
+  fluff: a type of Power intended to hurt, demoralize, or kill an enemy; a creature can only Attack once per turn
+- name: lasts one round
+  fluff: an effect lasting one round lasts until the end of that character's next turn
+- name: save ends
+  fluff: an effect lasting until save ends continues until the effected creature rolls a successful save (11+ on an unmodified 2d10) at the end of its turn
 ...

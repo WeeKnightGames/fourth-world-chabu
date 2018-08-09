@@ -14,15 +14,19 @@ classes:
   - Arcane Brilliance
   - Arcane Spellcasting
   - name: Wizard School
-    fluff: Select Elementalist, Illusionist, or Purist.
+    fluff: Select Elementalist, Illusionist, Librarian, or Purist (?).
   - name: Elementalist
     fluff: You gain Primal Brilliance and Primal Spellcasting.
     grants:
     - Primal Brilliance
     - Primal Spellcasting
+  - name: Illusionist
+    fluff: You gain ?
+  - name: Librarian
+    fluff: You gain something that lets you have Implement Powers from any Source and requires you to have as many different Sources for At-Will, Encounter, or Daily as possible. (So if you have 1 Daily Arcane Spell, you cannot take a second Daily Arcane Spell but must select a Daily Primal Evocation or a Daily Divine Spell, etc.).
+  - name: Purist
+    fluff: You can only cast Arcane Spells, but ...
   proficiencies:
-    equipment:
-    - Simple Weapons
     implements:
     - Orbs
     - Rods
@@ -40,5 +44,4 @@ classes:
       - Religion
       - Science
       - Technology
-    tools:
 ...
