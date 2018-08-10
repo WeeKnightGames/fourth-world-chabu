@@ -1,13 +1,14 @@
 ---
 classes:
 - name: Templar
-  fluff: The templar stands wrapped in armor ready to protect his allies with magic and might.
+  fluff: The templar stands wrapped in armor ready to protect his allies with might and magic.
   role: Defense
   source: Arcane
   hit die: d10
   recoveries: 6
   alignment: Any
   key ability score: Intelligence
+  ability score increase: Intelligence
   features:
   - Arcane Brilliance
   - Martial Brilliance
@@ -18,6 +19,17 @@ classes:
     fluff: When you hit an enemy with an attack, that enemy is goaded by you until you end your turn unengaged from them.
   - name: Templar's Blast
     fluff: When an enemy you engage attacks an ally without attacking you, that enemy suffers Level + INT plasmic damage.
+  - name: Templar Order
+    fluff: Choose 1 Templar Order.
+  - name: Order of the Dagger (Templar Order)
+    fluff: >
+      You gain proficiency in Daggers and may use them as Implements.
+  - name: Order of the Shield (Templar Order)
+    fluff: >
+      You gain proficiency in Shields and may use them as Implements.
+  - name: Order of the Wand (Templar Order)
+    fluff: >
+      You gain proficiency in Wands and may use them as Implements.
   proficiencies:
     equipment:
     - Simple Weapons
@@ -25,10 +37,10 @@ classes:
     - Light Armor
     - Medium Armor
     - Heavy Armor
-    - Shields
-    implements:
-    - Weapons
-    - Shields
+    # - Shields
+    # implements:
+    # - Weapons
+    # - Shields
     skills:
       choose: 2
       of:

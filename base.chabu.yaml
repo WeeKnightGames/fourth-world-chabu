@@ -1,5 +1,6 @@
 ---
 include:
+- getting-started.chabu.yaml
 - backgrounds.chabu.yaml
 - bloodlines.chabu.yaml
 - classes.chabu.yaml

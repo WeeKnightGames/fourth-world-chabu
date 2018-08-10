@@ -8,6 +8,7 @@ classes:
   recoveries: 3
   alignment: Any
   key ability score: Intelligence
+  ability score increase: Intelligence
   prerequisites:
   - Intelligence 13
   features:
@@ -15,16 +16,16 @@ classes:
   - Arcane Spellcasting
   - name: Wizard School
     fluff: Select Elementalist, Illusionist, Librarian, or Purist (?).
-  - name: Elementalist
+  - name: Elementalist (Wizard School)
     fluff: You gain Primal Brilliance and Primal Spellcasting.
     grants:
     - Primal Brilliance
     - Primal Spellcasting
-  - name: Illusionist
+  - name: Illusionist (Wizard School)
     fluff: You gain ?
-  - name: Librarian
+  - name: Librarian (Wizard School)
     fluff: You gain something that lets you have Implement Powers from any Source and requires you to have as many different Sources for At-Will, Encounter, or Daily as possible. (So if you have 1 Daily Arcane Spell, you cannot take a second Daily Arcane Spell but must select a Daily Primal Evocation or a Daily Divine Spell, etc.).
-  - name: Purist
+  - name: Purist (Wizard School)
     fluff: You can only cast Arcane Spells, but ...
   proficiencies:
     implements:

@@ -22,6 +22,8 @@ skills:
   key ability score: Intelligence
 - name: Dungeoneering
   key ability score: Wisdom
+- name: Insight
+  key ability score: Wisdom
 - name: Medicine
   key ability score: Wisdom
 - name: Nature

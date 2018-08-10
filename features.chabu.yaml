@@ -7,6 +7,13 @@ features:
 - name: Primal Spellcasting
   fluff: You may choose Primal Evocations requiring Implements as your At-Will, Encounter, and Daily Powers.
 
+- name: Arcane Spell Mastery
+  fluff: Cast At-Will, Encounter, and Daily Arcane Spells.
+- name: Arcane Spell Training
+  fluff: Cast At-Will and Encounter Arcane Spells.
+- name: Arcane Spell Dabbling
+  fluff: Cast At-Will Arcane Spells.
+
 # Or should Limited be At-Will and Encounter Powers, but not Dailies?
 - name: Limited Arcane Spellcasting
   fluff: You may choose Arcane Spells requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.

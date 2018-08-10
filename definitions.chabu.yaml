@@ -24,7 +24,7 @@ definitions:
 - name: incompetence penalty
   fluff: when not proficient, roll with disadvantage; if another effect would add disadvantage, you cannot make the roll
 - name: advantage
-  fluff: roll a third d10 and sum the highest 2, cancels advantage
+  fluff: roll a third d10 and sum the highest 2, cancels disadvantage
 - name: disadvantage
   fluff: roll a third d10 and sum the lowest 2, cancels advantage
 - name: summon
@@ -35,6 +35,14 @@ definitions:
   - Defenses equal to yours (without temporary modifiers) - 1
 - name: winded
   fluff: a creature is winded when its current hit points equal half or fewer of its maximum hit points
+- name: slowed
+  fluff: a slowed creature has 1 less Action and 1 less Reaction per round, cannot voluntarily move out of its turn, and cannot maneuver
+- name: stunned
+  fluff: a stunned creature has no Actions or Reactions and does not threaten
+- name: goaded
+  fluff: a goaded creature suffers a -2 penalty on attack rolls when making attacks that do not include the goader
+- name: flat-footed
+  fluff: a flat-footed creature suffers a -2 penalty on defenses
 - name: round
   fluff: each creature in a combat has one turn to act in a round
 - name: turn
@@ -45,4 +53,8 @@ definitions:
   fluff: an effect lasting one round lasts until the end of that character's next turn
 - name: save ends
   fluff: an effect lasting until save ends continues until the effected creature rolls a successful save (11+ on an unmodified 2d10) at the end of its turn
+- name: maneuver
+  fluff: a maneuver is a voluntarily move that does not provoke opportunity attacks
+- name: threaten
+  fluff: a creature threatens another when it is able to act, has another creature in its melee range, and is an enemy to that creature.
 ...

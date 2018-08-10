@@ -1,7 +1,7 @@
 ---
 powers:
-  - name: Primal Evocations
-    powers:
+  - name: Primal Attack Evocations
+    attack powers:
     - name: Acid Arrow
       fluff: An arrow of acid springs from your hand and speeds to its target.
       keywords: Primal, Evocation, Chemical, Implement, Attack
@@ -13,12 +13,6 @@ powers:
       attack: ATTR vs. Reflex
       hit: 4d4/5d4/6d4/7d4 chemical damage and ongoing 5/6/7/8 chemical damage (save ends)
       miss: half damage
-      # hit:
-      #   damage: 4d4/5d4/6d4/7d4 + ATTR chemical
-      #   ongoing: 5/6/7/8 chemical (save ends)
-      # miss:
-      #   damage: half
-      #   ongoing: 2/3/3/4 chemical (save ends)
     - name: Fireball
       fluff: A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame.
       keywords: Primal, Evocation, Thermal, Implement, Area, Attack
@@ -30,12 +24,46 @@ powers:
       attack: ATTR vs. Reflex
       hit: 3d6/4d6/5d6/6d6 + ATTR thermal damage
       miss: half damage
-    # - name: Enlarge Person
-    #   keywords: Primal, Evocation, Implement, Polymorph, Transmutation, Utility
-    #   level: 1
-    #   rarity: Common
-    #   action: 1 Major
-    #   range: 25'
-    #   target: 1 creature
-    #   effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+    - name: Frost Blast
+      fluff: Cold and ice blasts from your hand in a cone, slicing and freezing those before you.
+      keywords: Primal, Evocation, Glacial, Implement, Area, Attack
+      level: 3/5/7/9
+      rarity: Common
+      action: 1 Action
+      range: 25' cone
+      target: each creature in area
+      attack: ATTR vs. Reflex
+      hit: 4d4/5d4/6d4/7d4 + ATTR glacial damage and slowed (save ends)
+      miss: half damage and slowed for 1 round
+    - name: Lightning Bolt
+      fluff: You release a powerful stroke of electrical energy in a line blasting out from you in a direction you choose.
+      keywords: Primal, Evocation, Electrical, Implement, Line, Attack
+      level: 3/5/7/9
+      rarity: Common
+      action: 1 Action
+      range: 100' line
+      target: each creature in line
+      attack: ATTR vs. Reflex
+      hit: 3d6/4d6/5d6/6d6 + ATTR electrical damage
+      miss: half damage
+  - name: Primal Utility Evocations
+    utility powers:
+    - name: Enlarge Person
+      fluff: This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8.
+      keywords: Primal, Evocation, Implement, Polymorph, Utility
+      level: 1
+      rarity: Common
+      action: 1 Action
+      range: 25'
+      target: 1 willing, humanoid creature
+      effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+    - name: Rime
+      fluff: A weapon you touch becomes coated with ice.
+      keywords: Primal, Evocation, Glacial, Implement, Utility
+      level: 1
+      rarity: Common
+      action: 1 Action
+      range: touch
+      target: 1 weapon
+      effect: For the rest of the encounter, the weapon gains a +1 power bonus to attack and damage rolls and deals glacial damage.
 ...

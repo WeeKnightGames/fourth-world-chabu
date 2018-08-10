@@ -1,0 +1,26 @@
+---
+powers:
+  - name: Martial Attack Deeds
+    attack powers:
+    - name: Double Strike
+      fluff: After a quick attack from your main-hand weapon, you make another with your off-hand weapon.
+      keywords: Martial, Weapon, Deed, Melee, Attack
+      level: 0/2
+      rarity: Common
+      action: 1 Action
+      range: Melee weapons (main-hand and off-hand)
+      target: 1 or 2 creatures
+      attack: ATTR - 2 vs. AC (one with your main-hand weapon, and another with your off-hand weapon)
+      hit: WPN/2WPN damage
+  - name: Martial Utility Deeds
+    utility powers:
+    # - name: Enlarge Person
+    #   fluff: This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8.
+    #   keywords: Primal, Evocation, Implement, Polymorph, Utility
+    #   level: 1
+    #   rarity: Common
+    #   action: 1 Action
+    #   range: 25'
+    #   target: 1 willing, humanoid creature
+    #   effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+...
