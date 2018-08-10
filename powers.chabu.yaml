@@ -1,5 +1,8 @@
 ---
 include:
+- powers/arcane-spells.chabu.yaml
+- powers/divine-prayers.chabu.yaml
 - powers/martial-deeds.chabu.yaml
 - powers/primal-evocations.chabu.yaml
+- powers/technological-wonders.chabu.yaml
 ...

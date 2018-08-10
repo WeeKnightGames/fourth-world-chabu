@@ -6,6 +6,7 @@ classes fluff: >
   Each class has a key ability score. This grants an ability score increase during character creation (increasing the ability score by 1).
 
 include:
+- classes/roboticist.chabu.yaml
 - classes/shaman.chabu.yaml
 - classes/templar.chabu.yaml
 - classes/wizard.chabu.yaml

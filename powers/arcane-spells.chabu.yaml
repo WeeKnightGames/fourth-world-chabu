@@ -1,0 +1,45 @@
+---
+powers:
+  - name: Arcane Attack Spells
+    attack powers:
+    - name: Plasmic Dart
+      fluff: You send a magical dart streaking toward a creature that you can see.
+      keywords: Arcane, Attack, Spell, Ranged, Plasmic
+      level: 0/1/2
+      rarity: Common
+      time: 1 Action
+      range: 100'
+      target: 1/2/3 Creatures
+      attack: Automatic Hit
+      hit: 1d4 + 1 plasmic damage
+    - name: Plasmic Touch
+      fluff: A touch from your hand, which glows with blue energy, blasts the target creature.
+      keywords: Arcane, Attack, Spell, Melee, Touch, Plasmic
+      level: 0
+      rarity: Common
+      time: 1 Action
+      range: Melee Touch
+      target: 1 Creature
+      attack: ATTR vs. Reflex
+      hit: 1d8 + ATTR plasmic damage
+  - name: Arcane Utility Spells
+    utility powers:
+    - name: Shield
+      fluff: Shield creates an invisible plasmic shield that hovers in front of you. Additionally you take no damage from Plasmic Dart.
+      keywords: Arcane, Utility, Spell, Implement, Plasmic
+      level: 1
+      rarity: Common
+      time: 1 Action or 1 Reaction
+      range: Self
+      effect: +2 Shield Bonus to AC and Reflex; no damage from Plasmic Dart
+      duration: Sustain 1 Action
+    # - name: Enlarge Person
+    #   fluff: This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8.
+    #   keywords: Primal, Evocation, Implement, Polymorph, Utility
+    #   level: 1
+    #   rarity: Common
+    #   time: 1 Action
+    #   range: 25'
+    #   target: 1 willing, humanoid creature
+    #   effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+...

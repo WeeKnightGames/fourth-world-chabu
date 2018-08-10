@@ -7,7 +7,7 @@ powers:
       keywords: Primal, Evocation, Chemical, Implement, Attack
       level: 2/3/4/5
       rarity: Common
-      action: 1 Action
+      time: 1 Action
       range: 100'
       target: 1 creature
       attack: ATTR vs. Reflex
@@ -18,7 +18,7 @@ powers:
       keywords: Primal, Evocation, Thermal, Implement, Area, Attack
       level: 3/5/7/9
       rarity: Common
-      action: 1 Action
+      time: 1 Action
       range: 20'-diameter sphere within 100'
       target: each creature in area
       attack: ATTR vs. Reflex
@@ -29,7 +29,7 @@ powers:
       keywords: Primal, Evocation, Glacial, Implement, Area, Attack
       level: 3/5/7/9
       rarity: Common
-      action: 1 Action
+      time: 1 Action
       range: 25' cone
       target: each creature in area
       attack: ATTR vs. Reflex
@@ -40,7 +40,7 @@ powers:
       keywords: Primal, Evocation, Electrical, Implement, Line, Attack
       level: 3/5/7/9
       rarity: Common
-      action: 1 Action
+      time: 1 Action
       range: 100' line
       target: each creature in line
       attack: ATTR vs. Reflex
@@ -53,17 +53,19 @@ powers:
       keywords: Primal, Evocation, Implement, Polymorph, Utility
       level: 1
       rarity: Common
-      action: 1 Action
+      time: 1 Action
       range: 25'
       target: 1 willing, humanoid creature
-      effect: The target's size increases 1 category for the rest of the encounter. (The target's size gains a +1 power bonus---increasing its size by 1 category---for the rest of the encounter.)
+      effect: The target's size increases 1 category. (The target's size gains a +1 power bonus---increasing its size by 1 category.)
+      duration: Encounter
     - name: Rime
       fluff: A weapon you touch becomes coated with ice.
       keywords: Primal, Evocation, Glacial, Implement, Utility
       level: 1
       rarity: Common
-      action: 1 Action
-      range: touch
+      time: 1 Action
+      range: Melee Touch
       target: 1 weapon
-      effect: For the rest of the encounter, the weapon gains a +1 power bonus to attack and damage rolls and deals glacial damage.
+      effect: The weapon gains a +1 power bonus to attack and damage rolls and deals glacial damage.
+      duration: Encounter
 ...

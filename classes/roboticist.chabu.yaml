@@ -1,0 +1,43 @@
+---
+classes:
+- name: Roboticist
+  fluff: >
+    You make awesome robots.
+  role: Support
+  source: Technological
+  hit die: d8
+  recoveries: 4
+  alignment: Any
+  key ability score: Intelligence
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Dexterity
+    - Intelligence
+    - Wisdom
+  prerequisites:
+  - Intelligence 13
+  features:
+  - Technological Brilliance
+  - Robot Ally
+  proficiencies:
+    equipment:
+    - Simple Weapons
+    - Light Armor
+    - Medium Armor
+    - Heavy Armor
+    skills:
+      choose: 3
+      of:
+      - Arcana
+      - Athletics
+      - Endurance
+      - Medicine
+      - Nature
+      - Religion
+      - Science
+      - Survival
+      - Technology
+    tools:
+...

@@ -57,4 +57,14 @@ definitions:
   fluff: a maneuver is a voluntarily move that does not provoke opportunity attacks
 - name: threaten
   fluff: a creature threatens another when it is able to act, has another creature in its melee range, and is an enemy to that creature.
+- name: critical
+  fluff: when you roll a natural 20, you critically succeed; if on an attack, you deal maximum damage.
+- name: critical range
+  fluff: each increase of 1 to your critical range decreases the natural roll needed by 1 to critical (e.g., a +1 bonus to critical range means you would critical on a natural 19--20, by default).
+- name: hit
+  fluff: when your modified attack roll equals or exceeds the target's defense, you hit---dealing damage and inflicting effects.
+- name: botch
+  fluff: when your natural roll equals 2, you botch---failing the roll (dealing no damange and inflicting no effects, even if specified by an attack power used) and possibly suffering additional consequences
+- name: miss
+  fluff: when your modified attack roll is less than or equal to the target's defense, you miss---dealing no damange and inflicting no effects, unless specified by the attacking power
 ...

@@ -2,26 +2,27 @@
 features:
 - name: Arcane Spellcasting
   fluff: You may choose Arcane Spells requiring Implements as your At-Will, Encounter, and Daily Powers.
+- name: Limited Arcane Spellcasting
+  fluff: You may choose Arcane Spells requiring Implements as your At-Will and Encounter Powers.
+- name: Restricted Arcane Spellcasting
+  fluff: You may choose Arcane Spells requiring Implements as your At-Will Powers.
+
 - name: Divine Spellcasting
   fluff: You may choose Divine Prayers requiring Implements as your At-Will, Encounter, and Daily Powers.
+- name: Limited Divine Spellcasting
+  fluff: You may choose Divine Prayers requiring Implements as your At-Will and Encounter Powers.
+- name: Restricted Divine Spellcasting
+  fluff: You may choose Divine Prayers requiring Implements as your At-Will Powers.
+
 - name: Primal Spellcasting
   fluff: You may choose Primal Evocations requiring Implements as your At-Will, Encounter, and Daily Powers.
-
-- name: Arcane Spell Mastery
-  fluff: Cast At-Will, Encounter, and Daily Arcane Spells.
-- name: Arcane Spell Training
-  fluff: Cast At-Will and Encounter Arcane Spells.
-- name: Arcane Spell Dabbling
-  fluff: Cast At-Will Arcane Spells.
-
-# Or should Limited be At-Will and Encounter Powers, but not Dailies?
-- name: Limited Arcane Spellcasting
-  fluff: You may choose Arcane Spells requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
-- name: Limited Divine Spellcasting
-  fluff: You may choose Divine Prayers requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
 - name: Limited Primal Spellcasting
-  fluff: You may choose Primal Evocations requiring Implements as up to half (rounded down) of your At-Will, Encounter, and Daily Powers.
+  fluff: You may choose Primal Evocations requiring Implements as your At-Will and Encounter Powers.
+- name: Restricted Primal Spellcasting
+  fluff: You may choose Primal Evocations requiring Implements as your At-Will Powers.
 
+- name: Martial Experience (or this?)
+  fluff: You may choose a Martial Exploit as 1 of your At-Will Powers.
 - name: Martial Experience
   fluff: You may choose a Martial Exploit as 1 of your At-Will Powers.
 - name: Martial Training
@@ -38,6 +39,9 @@ features:
   fluff: You make Martial attacks using your Intelligence.
 - name: Primal Brilliance
   fluff: You make Primal attacks using your Intelligence.
+- name: Technological Brilliance
+  fluff: You make Technological attacks using your Intelligence.
+
 
 - name: Primal Awareness
   fluff: You make Primal attacks using your Wisdom.

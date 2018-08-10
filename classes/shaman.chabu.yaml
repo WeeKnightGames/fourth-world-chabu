@@ -12,7 +12,13 @@ classes:
   recoveries: 4
   alignment: Any
   key ability score: Wisdom
-  ability score increase: Wisdom
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Constitution
+    - Wisdom
+    - Charisma
   prerequisites:
   - Wisdom 13
   features:

@@ -6,6 +6,12 @@ feats:
     You become proficient with light armor. If you already were proficient with light armor, you gain proficiency with medium armor, if you were proficient with both, you gain proficiency with heavy armor, and if you were proficient with in all three, you gain proficiency with exosuits.
 
     - **Special.** You can select this feat more than once. Each time you select this feat, you become proficient with the next type of armor as appropriate (first light armor, then medium armor, then heavy armor, then exosuits).
+- name: Brutal Flank (maybe Vital Strike?)
+  tier: Hero
+  fluff: When you flank the target of your melee weapon attack, gain a +1 bonus to your critical range.
+- name: Deadly Flank (maybe Distracted Defender?)
+  tier: Hero
+  fluff: When you flank the target of your melee weapon attack, gain a +1 per tier bonus to damage rolls.
 - name: Combat Reflexes
   tier: Ascension
   fluff: At the start of each turn, you gain an additional reaction that can be used only to make an Opportunity Attack.

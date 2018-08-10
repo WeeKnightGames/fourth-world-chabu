@@ -8,7 +8,13 @@ classes:
   recoveries: 3
   alignment: Any
   key ability score: Intelligence
-  ability score increase: Intelligence
+  ability score increase:
+    fluff: Choose 1 of
+    choose: 1
+    of:
+    - Dexterity
+    - Intelligence
+    - Wisdom
   prerequisites:
   - Intelligence 13
   features:
